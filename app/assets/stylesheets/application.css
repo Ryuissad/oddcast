@@ -22,7 +22,7 @@
  }
 
  h1{
-    /* padding: 12px; */
+    padding: 12px;
     box-sizing: border-box;
  }
 
@@ -72,4 +72,4 @@ display: flex;
   word-break: break-word;
   white-space: break-spaces;
   margin-top: 8px;
- } */
+ }
