@@ -9,4 +9,13 @@
     <%= article.description %>
   </p>
 
+  <p>
+  <strong>Cover Image:</strong>
+  <% if article.cover_image.attached? %>
+    <%= image_tag article.cover_image%>
+  <% else %>
+    No cover image available.
+  <% end %>
+</p>
+
 </div>

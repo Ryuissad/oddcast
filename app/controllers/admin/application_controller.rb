@@ -1,5 +1,5 @@
 module Admin
-  class ApplicationController < ActionController
+  class ApplicationController < ::ApplicationController
     include Authentication
       before_action :require_authentication
   end
