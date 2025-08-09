@@ -20,3 +20,8 @@
     margin: 0;
     padding: 0;
  }
+
+ h1{
+    padding: 12px;
+    box-sizing: border-box;
+ }
